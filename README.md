@@ -6,7 +6,7 @@ Added runtime exceptions for the following cases:
  + Attempting to reserve seats after the seat hold expired
  + The number of seats requested exceeds the total available seats
 
-TicketService implementation is not thread safe or transactional.
+NOTE: TicketService implementation is not transactional.
 
 
 
@@ -15,7 +15,7 @@ TicketService implementation is not thread safe or transactional.
 + Maven 3
 
 # Running
-From a terminal run:
+From command prompt/terminal run the following maven command:
 
     mvn test
 
